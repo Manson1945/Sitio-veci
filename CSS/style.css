@@ -23,7 +23,7 @@ body {
 .background {
     width: 100vw;
     height: 100vh;
-    background-image: url(../ASSETS/grass_leaves_green_dark-786654.jpg);
+    background-image: url(../ASSETS/photo-1601979689063-cb474664e70b.jpg);
     background-size: cover;
     background-position:30%;
     background-repeat: no-repeat;
@@ -31,12 +31,18 @@ body {
 
 .backgroundPages {
     
-    background-image: url(../ASSETS/grass_leaves_green_dark-786654.jpg);
+    background-image: url(../ASSETS/photo-1601979689063-cb474664e70b.jpg);
     background-size: cover;
-    /* background-position:100%; */
+    background-position-y: 50%;
     background-repeat: no-repeat;
 
 
+}
+
+.backgroundFooterPages {
+    background-image: url(../ASSETS/photo-1601979689063-cb474664e70b.jpg);
+    background-size: cover;
+    background-position-y: 70%;
 }
 
 
@@ -49,40 +55,59 @@ h1 {
     font-family: h1;
     font-size: 2.5rem;
     text-align: center;
-    color: #edf2f4;
+    color:rgb(159, 53, 122);
     padding: 20px;
+}
+
+h2 {
+    font-family: h1;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(159, 53, 122);
+    
 }
 
 nav {
     text-align: center;
+    margin-top: 30px;
 }
 
 nav a {
+    
     font-size: 1.1rem;
-    margin: 10px;
+    margin:5px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
 
-    color: #edf2f4;
+    color: rgb(159, 53, 122);
 }
 
 
 main {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+    
     
 }
+
+/* main div {
+   
+  
+} */
 
 main p {
     margin: 15px;
     
-    text-align: justify;
+    
 }
 
 
 footer {
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px; */
+    padding: 20px;
 }
 
 p {
@@ -90,7 +115,7 @@ p {
     
     font-size: 1.2rem;
     font-weight: bold;
-    color: #edf2f4;
+    color: rgb(159, 53, 122);
     text-align: center;
 }
 

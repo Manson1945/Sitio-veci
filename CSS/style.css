@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: h1;
-    src: url(../ASSETS/FONTS/Garlicha.otf); }
+    src: url(../ASSETS/FONTS/Khatija\ Calligraphy.ttf); }
 
 body {
     width: 100vw;
@@ -18,7 +18,7 @@ body {
     
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 20vh auto 10vh; }
+    grid-template-rows: 20vh auto 15vh; }
 
 .background {
     width: 100vw;
@@ -52,30 +52,32 @@ header {
 
 
 h1 {
+    height: 80px;
     font-family: h1;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
     color:rgb(159, 53, 122);
-    padding: 20px;
+    padding-top: 20px;
 }
 
 h2 {
-    font-family: h1;
-    font-size: 2rem;
-    text-align: center;
+    /* margin-right: 40px; */
+    font-size: 1rem;
+    text-align:center;
+    
     color: rgb(159, 53, 122);
     
 }
 
 nav {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 nav a {
     
     font-size: 1.1rem;
-    margin:5px;
+    margin:15px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -86,8 +88,9 @@ nav a {
 
 main {
     width: 100vw;
-    display: flex;
-    flex-direction: column;
+    
+    /* display: flex;
+    flex-direction: column; */
     
     
     
@@ -107,7 +110,7 @@ main p {
 
 footer {
     /* margin: 10px; */
-    padding: 20px;
+    padding: 7px;
 }
 
 p {
@@ -116,6 +119,12 @@ p {
     font-size: 1.2rem;
     font-weight: bold;
     color: rgb(159, 53, 122);
-    text-align: center;
+    text-align: start;
+    margin: 2px;
 }
+
+.city {
+    margin: 20px;
+    text-align: center;
+} 
 
